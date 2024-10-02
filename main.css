@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+.header__list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 120px;
+}
+header{
+background-color: black;
+position: relative;
+}
+.navigation{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+.link__card{
+    text-decoration: none ;
+    color: white;
+}
+.header__link{
+    color: rgb(255, 255, 255);
+font-family: "Inter";
+font-size: 24px;
+font-weight: 700;
+line-height: 29px;
+text-shadow: 0px 4px 4px white;
+}
+.hero{
+  background-image: url("./image/Rectangle\ 2\ \(8\).png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 594px;
+
+}
+h1{
+    color: rgb(0, 0, 0);
+font-family: "Inter";
+font-size: 64px;
+font-weight: 700;
+line-height: 77px;
+background-color: white;
+width: 500px;
+border-radius: 30px;
+margin: 0 auto;
+text-align: center;
+margin-top: 20px;
+position: absolute;
+left: 455px;
+border-radius: 30px;
+box-shadow: 16px 18px 28px 0px rgba(255, 255, 255, 0.25);
+background: rgb(255, 255, 255);
+}
+.header__title{
+   position: absolute;
+   top: 297px;
+}
+.list__hero{
+    box-shadow: 0px 22px 27.8px 0px rgba(255, 249, 249, 0.25);
+background: rgb(50, 251, 0);
+width: 237px;
+height: 209px;
+position: relative;
+left: 100px;
+top: 100px;
+text-align: center;
+display: flex;
+align-items: center;
+padding:140px 49px 34px 56px;  
+color: rgb(255, 6, 6);
+font-family: Inter;
+font-size: 24px;
+font-weight: 700;
+line-height: 29px;
+text-shadow: 0px 4px 4px white;
+}
+.header__title{
+    display: flex;
+    justify-content: space-between;
+    gap:271px ;
+}
+.hero__card{
+    width: 237px;
+    height: 209px;
+    background-color: red;
+    position: absolute;
+    top: -160px;
+    left: 90px;
+    color: white;
+    text-shadow: 0px 4px 4px white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+font-family: "Inter";
+font-size: 24px;
+font-weight: 700;
+line-height: 29px;
+}
+.birinchi{
+    border-radius: 100px;
+    width: 411px;
+   position: absolute;
+   left: -80px;
+
+box-shadow: 0px 18px 26.5px 0px rgba(251, 0, 0, 0.25);
+background: rgb(247, 1, 1); 
+}
+.ikkinchi{
+    position: absolute;
+    left: -100px;
+}
+.section{
+    background-color:black;
+    height: 700px;
+}
+
+h2{
+    width: 600px;
+    height: 74px;
+    background-color: white;
+    color: rgb(0, 0, 0);
+font-family: "Inter";
+font-size: 64px;
+font-weight: 700;
+line-height: 77px;
+border-radius: 30px;
+text-align: center;
+margin: 0 auto;
+border-radius: 30px;
+
+box-shadow: 16px 18px 28px 0px rgba(255, 255, 255, 0.25);
+background: rgb(255, 255, 255);
+}
+.header__item{
+    position: relative;
+    top: 30px;
+}
+h5{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 32px;
+font-weight: 700;
+line-height: 39px;
+padding: 50px 118px 38px 118px;
+text-shadow: 0px 4px 4px white;
+}
+.header__card{
+    background-color: rgb(123, 37, 37);;
+    width: 368px;
+    height: 332px;
+    margin-top: 90px;
+}
+.header__text{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+padding: 28px 30px 42px 52px;
+}
+.image{
+    width: 316px;
+ padding-left: 27px;
+}
+.boss{
+    display: flex;
+    gap: 30px;
+    justify-content:center;
+}
+footer{
+    background-color: black;
+}
+.header__footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:68px;
+}
+
+
+.link__card{
+    text-shadow: 0px 4px 7px white;
+    color: rgb(255, 255, 255);
+font-family: "Inter";
+font-size: 24px;
+font-weight: 700;
+line-height: 29px;
+}
